@@ -1,0 +1,59 @@
+@define-color accent_color #FF0066;
+@define-color accent_bg_color #FF0066;
+
+window, headerbar, .transparent {
+  background-color: transparent;
+}
+
+headerbar {
+  box-shadow: none;
+}
+
+windowcontrols {
+  margin: 0 5px;
+}
+
+.activatable:selected {
+  background-color: @accent_bg_color;
+  color: @accent_fg_color;
+}
+
+row {
+  min-height: 28px;
+  font-size: 12px;
+  border-radius: 5px;
+  margin: 2px 12px;
+  padding: 0 12px;
+}
+
+row image {
+  color: @accent_bg_color;
+}
+
+row:selected image {
+  color: @accent_fg_color;
+}
+
+.boxed-list {
+  box-shadow: none;
+  border-radius: 0;
+  background-color: transparent;
+}
+
+.boxed-list > .activatable {
+  border-bottom-width: 0;
+}
+
+.collection-title {
+  margin: 22px 8px 10px;
+  font-weight: bold;
+  opacity: 0.35;
+}
+
+.new-collection-button {
+  font-weight: normal;
+}
+
+windowhandle .title {
+  opacity: 0;
+}
