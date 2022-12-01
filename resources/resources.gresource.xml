@@ -3,6 +3,7 @@
   <gresource prefix="/com/paulrouget/todo/">
     <file compressed="true" preprocess="xml-stripblanks" alias="gtk/help-overlay.ui">shortcuts.ui</file>
     <file compressed="true" preprocess="xml-stripblanks">window.ui</file>
+    <file compressed="true" preprocess="xml-stripblanks">collection.ui</file>
     <file compressed="true">style.css</file>
   </gresource>
 </gresources>
